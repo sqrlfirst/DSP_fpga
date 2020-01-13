@@ -1,0 +1,76 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2018  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+# Date created = 13:01:20  January 12, 2020
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		filter_my_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone V"
+set_global_assignment -name DEVICE 5CGXFC5C6F27C7
+set_global_assignment -name TOP_LEVEL_ENTITY filter_my
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 18.1.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "13:01:20  JANUARY 12, 2020"
+set_global_assignment -name LAST_QUARTUS_VERSION "18.1.0 Lite Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 256
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_location_assignment PIN_D7 -to i_ac_adcdat
+set_location_assignment PIN_W10 -to i_adc_sdo
+set_location_assignment PIN_T13 -to i_clk50M
+set_location_assignment PIN_C7 -to io_ac_adclrck
+set_location_assignment PIN_G10 -to io_ac_daclrck
+set_location_assignment PIN_E6 -to io_bclk
+set_location_assignment PIN_H10 -to o_ac_dacdat
+set_location_assignment PIN_D6 -to o_ac_xck
+set_location_assignment PIN_AB22 -to o_adc_convst
+set_location_assignment PIN_Y10 -to o_adc_sdi
+set_location_assignment PIN_AA21 -to o_adc_sck
+set_global_assignment -name VERILOG_FILE TERASIC_AUDIO/AUDIO_IF.v
+set_global_assignment -name VERILOG_FILE TERASIC_AUDIO/audio_fifo.v
+set_global_assignment -name VERILOG_FILE TERASIC_AUDIO/AUDIO_DAC.v
+set_global_assignment -name VERILOG_FILE TERASIC_AUDIO/AUDIO_ADC.v
+set_global_assignment -name VERILOG_FILE ADC_LTC2308_FIFO/adc_ltc2308_fifo.v
+set_global_assignment -name VERILOG_FILE ADC_LTC2308_FIFO/adc_ltc2308.v
+set_global_assignment -name VERILOG_FILE ADC_LTC2308_FIFO/adc_data_fifo.v
+set_global_assignment -name QIP_FILE FIR_mine.qip
+set_global_assignment -name SIP_FILE FIR_mine.sip
+set_global_assignment -name SYSTEMVERILOG_FILE filter_my.sv
+set_global_assignment -name SYSTEMVERILOG_FILE filter_fsm.sv
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

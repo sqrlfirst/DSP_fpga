@@ -1,0 +1,44 @@
+module filter_my_top(
+    input           i_clk50M,
+
+    // ADC
+    output          o_adc_convst,
+    output          o_adc_sck   ,
+    output          o_adc_sdi   ,
+    input           i_adc_sdo   ,
+    // audio codec
+    inout           io_ac_adclrck,
+    input           i_ac_adcdat  ,
+    inout           io_ac_adclrck,
+    output          o_ac_dacdat  ,
+    output          o_ac_xck     ,
+    input           io_bclk      ,
+
+);
+
+    // PLL
+
+
+    // ADC module 
+
+    // filter
+    FIR_mine u_FIR_mine(
+        .clk              (   ),
+        .reset_n          (   ),
+        .ast_sink_data    (   ),
+        .ast_sink_valid   (   ),
+        .ast_sink_error   (   ),
+
+
+        .ast_source_data  (  ),
+        .ast_source_valid (  ),
+        .ast_source_error (  )
+    );
+
+
+    // DAC implementation
+
+
+
+
+endmodule 

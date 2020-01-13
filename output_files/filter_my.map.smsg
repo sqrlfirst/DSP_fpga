@@ -1,0 +1,2 @@
+Warning (10268): Verilog HDL information at AUDIO_IF.v(166): always construct contains both blocking and non-blocking assignments File: C:/intelFPGA_lite/18.1/DSP/TERASIC_AUDIO/AUDIO_IF.v Line: 166
+Warning (10268): Verilog HDL information at AUDIO_IF.v(182): always construct contains both blocking and non-blocking assignments File: C:/intelFPGA_lite/18.1/DSP/TERASIC_AUDIO/AUDIO_IF.v Line: 182

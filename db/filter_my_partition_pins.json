@@ -1,0 +1,21 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "o_ac_dacdat",
+					"strict" : false
+				},
+				{
+					"name" : "io_ac_daclrck",
+					"strict" : false
+				},
+				{
+					"name" : "io_ac_bclk",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

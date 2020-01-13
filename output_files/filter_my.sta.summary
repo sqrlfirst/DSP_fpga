@@ -1,0 +1,101 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'io_ac_bclk'
+Slack : -8.385
+TNS   : -269.308
+
+Type  : Slow 1100mV 85C Model Setup 'io_ac_daclrck'
+Slack : -2.633
+TNS   : -188.732
+
+Type  : Slow 1100mV 85C Model Hold 'io_ac_bclk'
+Slack : 0.061
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'io_ac_daclrck'
+Slack : 0.213
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'io_ac_daclrck'
+Slack : -2.636
+TNS   : -238.261
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'io_ac_bclk'
+Slack : -0.538
+TNS   : -35.635
+
+Type  : Slow 1100mV 0C Model Setup 'io_ac_bclk'
+Slack : -8.318
+TNS   : -263.893
+
+Type  : Slow 1100mV 0C Model Setup 'io_ac_daclrck'
+Slack : -2.575
+TNS   : -178.633
+
+Type  : Slow 1100mV 0C Model Hold 'io_ac_bclk'
+Slack : 0.112
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'io_ac_daclrck'
+Slack : 0.306
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'io_ac_daclrck'
+Slack : -2.636
+TNS   : -237.752
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'io_ac_bclk'
+Slack : -0.538
+TNS   : -37.114
+
+Type  : Fast 1100mV 85C Model Setup 'io_ac_bclk'
+Slack : -3.622
+TNS   : -109.308
+
+Type  : Fast 1100mV 85C Model Setup 'io_ac_daclrck'
+Slack : -1.390
+TNS   : -51.495
+
+Type  : Fast 1100mV 85C Model Hold 'io_ac_bclk'
+Slack : 0.039
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'io_ac_daclrck'
+Slack : 0.140
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'io_ac_daclrck'
+Slack : -2.174
+TNS   : -157.440
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'io_ac_bclk'
+Slack : -0.052
+TNS   : -1.952
+
+Type  : Fast 1100mV 0C Model Setup 'io_ac_bclk'
+Slack : -3.298
+TNS   : -99.686
+
+Type  : Fast 1100mV 0C Model Setup 'io_ac_daclrck'
+Slack : -1.247
+TNS   : -43.607
+
+Type  : Fast 1100mV 0C Model Hold 'io_ac_bclk'
+Slack : 0.031
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'io_ac_daclrck'
+Slack : 0.145
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'io_ac_daclrck'
+Slack : -2.174
+TNS   : -157.303
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'io_ac_bclk'
+Slack : -0.079
+TNS   : -2.902
+
+------------------------------------------------------------
